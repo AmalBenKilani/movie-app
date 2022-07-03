@@ -1,0 +1,37 @@
+* {
+  margin-left: 5px;
+  margin-right: 30px;
+ 
+}
+h4 {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: small;
+  color:#059862;
+}
+.Button {
+ 
+  margin-left: 50%;
+  padding: 5px;
+}
+#inputGroup1 {
+  padding-right: 51px;
+  color:#059862;
+ 
+}
+#inputGroup2 {
+  padding-right: 51px;
+  color: #059862;
+}
+#inputGroup3 {
+  padding-right: 51px;
+  color: #059862;
+}
+#inputGroup4{
+  color: #059862;
+  padding-right: 25px
+}
+#inputGroup5 {
+  padding-right: 55px;
+  color: #059862;
+}
