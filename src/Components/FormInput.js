@@ -1,6 +1,5 @@
-import { getByTitle } from "@testing-library/react";
 import React from "react";
-import { Button, Card, InputGroup, FormControl } from 'react-bootstrap';
+import { Button, InputGroup, FormControl } from 'react-bootstrap';
 import '../Components/FormInput.css';
 
 

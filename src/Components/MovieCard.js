@@ -1,11 +1,14 @@
-import { getByTitle } from "@testing-library/react";
 import React from "react";
+import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import './MovieCard.css'
 
 
 
+
+
 const MovieCard = (props) => {
+
     return (
         <Card id="movieCard">
             <Card.Img id="movieImg" variant="top" src={props.movie.img} />
@@ -16,7 +19,10 @@ const MovieCard = (props) => {
                 </Card.Text>
 
             </Card.Body>
+            <Link to={`/moviedescription/${props.movie.id}`}>See More</Link>
+          
         </Card>
+
     )
 }
 

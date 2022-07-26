@@ -6,6 +6,7 @@ import '../Components/Filter.css';
 
 
 
+
 const Filter = (props) => {
 
 
@@ -27,7 +28,8 @@ const Filter = (props) => {
                 onChange={props.ratingChanged}
                 size={24}
                 activeColor="#ffd700"
-            />,
+            />
+           
         </>
     )
 }
